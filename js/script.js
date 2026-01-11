@@ -1,4 +1,4 @@
-console.log("Aplikasi Beranda LKS Cloud Dimuat (index.html)");
+console.log("Aplikasi LKS Cloud Dimuat (index.html)");
 console.log("Memulai Proses fetch data untuk fitur dinamis");
 
 const randomId = Math.floor(Math.random() * 100) + 1;
