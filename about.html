@@ -3,84 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About | LKS Cloud Deploy ☁</title>
+    <title>About | Walidi Danang</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"></head>
-
 </head>
 <body>
-    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
         <div class="container">
-            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 10px;">
-                <div class="digital-clock">
-                    <span id="live-clock">00:00:00</span>
-                </div>
-
-                <div class="theme-switch-wrapper">
-                    <button id="theme-toggle">🌙 Dark Mode</button>
-                </div>
-            </div>
-
-            <hr style="width: 100%; border: 0.5px solid rgba(255,255,255,0.1); margin: 5px 0;">
-
-            <div class="header-main">
-                <h1>LKS Cloud Deploy ☁</h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html" class="active">About</a></li>
-                    </ul>
-                </nav>
+            <a class="navbar-brand fw-bold" href="index.html">MA'ARIF CLOUD ☁️</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link active" href="about.html">About</a>
             </div>
         </div>
-    </header>
+    </nav>
 
-    <main>
-        <section class="content-section fade-in" about-section>
-            <div class="container">
-                <h2 style="text-align: center;">Informasi Pembuat Apliaksi Web</h2>
-
-                <div class="card-grid" style="margin-top: 30px;">
-                    <div class="card profile-card">
-                        <h4 style="color: #2ecc71;">Identitas peserta LKS</h4>
-
-                        <p><strong>Nama Peserta:</strong> Walidi Danang</p>
-                        <p><strong>Nomor Peserta:</strong> 1</p>
-                        <p><strong>Asal sekolah:</strong> SMK ISLAM 1 BLITAR</p>
-                        <P><strong>Bidang Lomba:</strong> Cloud Computing</P>
-                        <p><strong>Keahlian:</strong> Teknik Komputer Jaringan</p>
-                        <span class="badge">Networking</span>
-                        <span class="badge">Cloud</span>
-                    </div>
-
-                    <div class="card project-desc">
-                        <h4 style="color: #2ecc71;">Deskripsi Proyek Deployment</h4>
-                        <p>
-                            Proyek ini adalah implementasi dari soal modul deploy website dari GitHub untuk LKS Cloud Computing tahun 2026. Tujuan utama proyek ini adalah mendemonstrasikan kemampuan:
-                        </p>
-                        <ul>
-                            <li>Pengelolaan kode sumber dasar menggunakan Git dan GitHub.</li>
-                            <li>deployment otomatis statis site dari GitHub ke platform layanan cloud (Vercel?Netlify).</li>
-                            <li>Penerapan fitur dinamis sederhana (API Publik).</li>
-                            <li>Implementasi keamanan dasar (.gitinore) dan Logging (Console.log)</li>
-                        </ul>
-                    </div>
+    <main class="container mt-5">
+        <div class="row justify-content-center g-4">
+            <div class="col-md-5">
+                <div class="card p-4 border-0 shadow-sm">
+                    <h3 class="card-title mb-4">Profil Peserta</h3>
+                    <p class="mb-1 text-muted">Nama Lengkap:</p>
+                    <p class="fw-bold fs-5">Walidi Danang</p>
+                    <p class="mb-1 text-muted">Sekolah:</p>
+                    <p class="fw-bold">SMKS 1 KOTA BLITAR</p>
+                    <p class="mb-1 text-muted">Kompetensi:</p>
+                    <p class="fw-bold">Cloud Computing</p>
                 </div>
             </div>
-        </section>
+            <div class="col-md-6">
+                <div class="card p-4 border-0 shadow-sm">
+                    <h3 class="card-title mb-4">Detail Deployment</h3>
+                    <p>Proyek ini menggunakan infrastruktur:</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">✔️ Amazon EC2 Instance</li>
+                        <li class="list-group-item">✔️ Linux Apache Web Server</li>
+                        <li class="list-group-item">✔️ Animasi CSS & Grid Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <footer>
+    <footer class="text-center mt-5">
         <div class="container">
-            <p>&copy; LKS Cloud Computing 2026. Deploy By Walidi Danang</p>
+            <p class="mb-0">&copy; 2026 LKS Cloud Ma'arif NU Jatim</p>
         </div>
     </footer>
 
     <script src="js/script.js"></script>
-
-    <script>
-        console.log("Halaman Tentang Peserta LKS Cloud Dimuat(about.html)")
-    </script>
 </body>
 </html>
